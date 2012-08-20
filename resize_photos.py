@@ -13,7 +13,7 @@ def read_directory(path):
         for infile in files:
             for size in sizes:
                 outfile = os.path.join(path+'_'+str(size), infile)
-                infile_full = os.path.join(dirname, infile)
+                infile_full = os.path.join(path, infile)
                 resize_photo(infile_full, outfile, size)
 
 def resize_photo(original_photo, new_photo, size):
