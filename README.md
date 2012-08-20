@@ -3,7 +3,7 @@ Photo resizing script
 
 Authors
 -------
-wilburb@wilburweb.com
+@wilburb
 
 Purpose
 -------
